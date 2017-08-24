@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  host: 'evergreen.sunloving.solar',
+  apiHost: 'api.evergreen.sunloving.solar'
 };
