@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 232, 113, 1);
+  font-size: large;
+}
+
+.output-content {
+  display: flex;
+  padding: 10px;
+}
