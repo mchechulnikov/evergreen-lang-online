@@ -1,0 +1,10 @@
+:host {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.control-button {
+  margin-left: 10px;
+  margin-right: 10px;
+}

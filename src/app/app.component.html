@@ -2,7 +2,16 @@
   <app-header></app-header>
   <div class="content">
     <app-editor></app-editor>
-    <app-help></app-help>
+    <app-output></app-output>
   </div>
-  <app-output></app-output>
+  <app-controls></app-controls>
+
+  <button
+    mdc-fab
+    [mini]="true"
+    [plain]="true"
+    class="source-button"
+  >
+    <mdc-fab-icon material-icon>code</mdc-fab-icon>
+  </button>
 </div>

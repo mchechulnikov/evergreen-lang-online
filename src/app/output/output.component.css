@@ -1,11 +1,13 @@
 :host {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  background-color: rgba(0, 232, 113, 1);
-  font-size: large;
+  min-height: 100%;
+  padding-left: 10px;
 }
 
-.output-content {
-  display: flex;
-  padding: 10px;
+.description {
+  background-color: #eee;
+  width: 100%;
+  min-height: 100%;
 }
