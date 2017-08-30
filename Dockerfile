@@ -1,6 +1,5 @@
-FROM node:8.4 as build-static
+FROM sunloving/angular-base:v13.master as build-static
 WORKDIR /static-build/
-RUN npm install -g @angular/cli
 COPY . .
 RUN ng build --prod
 
