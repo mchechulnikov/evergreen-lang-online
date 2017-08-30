@@ -1,4 +1,4 @@
-FROM sunloving/angular-base:v13.master as build-static
+FROM cloud.canister.io:5000/sunloving/angular-base:v13.master as build-static
 WORKDIR /static-build/
 COPY . .
 RUN ng build --prod
